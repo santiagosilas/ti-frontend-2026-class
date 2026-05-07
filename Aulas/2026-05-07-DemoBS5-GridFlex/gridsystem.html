@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/site.css" />
+  </head>
+  <body>
+    <!-- https://getbootstrap.com/docs/5.3/customize/color/#generating-utilities -->
+    <!--https://getbootstrap.com/docs/5.3/customize/color/#using-the-new-colors -->
+    <div>
+      <h1>Grid System</h1>
+      <div class="container text-center">
+        <!-- A Row com gx-5 define o espaçamento horizontal -->
+        <div class="row border border-black mb-2 pb-2 gx-3 gy-3">
+          <!-- Coluna 1 -->
+          <div class="col-sm-8 col-md-6 col-lg-4">
+            <!-- Div interna (wrapper) para aplicar borda e cor -->
+            <div class="border border-primary bg-warning-subtle p-2">
+              col-sm-8
+            </div>
+          </div>
+
+          <!-- Coluna 2 -->
+          <div class="col-sm-4 col-md-6 col-lg-4">
+            <div class="border border-primary bg-warning-subtle p-2">
+              col-sm-4
+            </div>
+          </div>
+
+          <!-- Coluna 3 -->
+          <div class="col-sm-8 col-md-6 col-lg-4">
+            <div class="border border-primary bg-warning-subtle p-2">
+              col-sm-8
+            </div>
+          </div>
+
+          <!-- Coluna 4 -->
+          <div class="col-sm-4 col-md-6 col-lg-12">
+            <div class="border border-primary bg-info-subtle p-2">col-sm-4</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/popper.min.js"></script>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+    <script src="scripts/site.js"></script>
+  </body>
+</html>
